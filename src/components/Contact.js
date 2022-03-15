@@ -11,7 +11,7 @@ const Contact = ({ firstName, lastName, homePhone, cellPhone, photoUrl }) => {
           <b>Home</b>: {homePhone}
         </p>
         <p>
-          <b>Cell</b>: {cellPhone}
+          <b>Mobile</b>: {cellPhone}
         </p>
       </div>
     </div>

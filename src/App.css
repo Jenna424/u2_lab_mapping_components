@@ -1,6 +1,35 @@
-/* Styles Go Here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.contact-list {
+  width: 300px;
+  height: 600px;
+  border: 2px solid black;
+  overflow: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
 .contact-wrapper {
   display: flex;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+  padding: 3px;
 }
 
 .contact-details {

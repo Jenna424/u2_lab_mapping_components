@@ -1,23 +1,13 @@
 import React from 'react'
-import Contact from './components/Contact'
-import './App.css'
+import ContactList from './components/ContactList'
 import contacts from './data/contacts.json'
+import './App.css'
 
 function App() {
   return (
     <div className="App">
       <h1>Contact List</h1>
-      {contacts.results.map((contact) => (
-        <Contact
-          // key={`${contact.name.first} ${contact.name.last}`}
-          key={contact.login.uuid}
-          firstName={contact.name.first}
-          lastName={contact.name.last}
-          homePhone={contact.phone}
-          cellPhone={contact.cell}
-          photoUrl={contact.picture.thumbnail}
-        />
-      ))}
+      <ContactList contactsArray={contacts.results} />
     </div>
   )
 }
