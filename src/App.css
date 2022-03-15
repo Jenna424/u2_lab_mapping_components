@@ -1,1 +1,15 @@
 /* Styles Go Here */
+.contact-wrapper {
+  display: flex;
+}
+
+.contact-details {
+  margin-left: 10px;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 70px;
+  height: 70px;
+}
